@@ -3,3 +3,4 @@
 
 ### 效果
 ![图片](https://github.com/lixiaopeng168/FlutterPluginDemo/blob/master/screent/1595062363598683.gif)
+![图片](/screent/1595062363598683.gif)
