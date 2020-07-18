@@ -9,4 +9,4 @@
 - flutter_plugin_base是共用的模块。在细分可以有model，common,util等。这里只是demo都卸载的base里
 - screent是图片效果，下载可以本地查看
 
-[git地址]('https://github.com/lixiaopeng168/FlutterPluginDemo')
+[git地址](https://github.com/lixiaopeng168/FlutterPluginDemo 'git直通车')
