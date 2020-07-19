@@ -16,6 +16,10 @@ dependencies:
   # 加载
   flutter_spinkit: ^4.1.2
 
+  # 网络请求
+  flutterpluginhttp:
+    path: ../flutter_plugin_http/
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

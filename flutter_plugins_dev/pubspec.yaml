@@ -37,13 +37,16 @@ dependencies:
     path: ../flutter_plugin_base/
 
   flutterpluginlist:
-    path: ../flutter_plugin_list
+    path: ../flutter_plugin_list/
 
   flutter_list_second:
     path: ../flutter_plugin_list_second/
 
   flutterpluginhttp:
     path: ../flutter_plugin_http/
+
+  flutterpluginhome:
+    path: ../flutter_plugin_home/
 
 dev_dependencies:
   flutter_test:

@@ -2,6 +2,11 @@ import 'dart:async';
 
 import 'package:flutter/services.dart';
 
+
+
+export 'http_import.dart';
+export 'src/DioDemo.dart';
+
 class Flutterpluginhttp {
   static const MethodChannel _channel =
       const MethodChannel('flutterpluginhttp');

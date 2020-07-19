@@ -12,6 +12,8 @@ export 'utils/EventBusUtil.dart';
 
 export 'common/RoutesCommon.dart';
 
+export 'src/BaseWidget.dart';
+
 class Flutterpluginbase {
   static const MethodChannel _channel =
       const MethodChannel('flutterpluginbase');

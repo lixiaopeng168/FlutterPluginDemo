@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:flutterpluginhome/flutterpluginhome.dart';
 
 import 'plugins_import.dart';
 
@@ -25,9 +26,10 @@ class MyApp extends StatelessWidget {
       home: MyHomePage(title: 'Flutter Demo Home Page'),
 
       routes: {
-        "/login":(context) => LoginPage(),
-        "/list":(context) => ListPage(),
-        "/list_second":(context) => ListSecondPage("跳转到二级页面"),
+        RoutesCommon.login:(context) => LoginPage(),
+        RoutesCommon.list:(context) => ListPage(),
+        RoutesCommon.list_second:(context) => ListSecondPage("跳转到二级页面"),
+        RoutesCommon.mhome:(context) => MHomePage(),
       },
     );
   }
@@ -102,7 +104,7 @@ class _MyHomePageState extends State<MyHomePage> {
               color: Colors.blue,
               textColor: Colors.white,
               onPressed: (){
-                Navigator.pushNamed(context, "/login");
+                Navigator.pushNamed(context, RoutesCommon.login);
               },
             ),
             RaisedButton(
@@ -110,7 +112,15 @@ class _MyHomePageState extends State<MyHomePage> {
               color: Colors.blue,
               textColor: Colors.white,
               onPressed: (){
-                Navigator.pushNamed(context, "/list");
+                Navigator.pushNamed(context, RoutesCommon.list);
+              },
+            ),
+            RaisedButton(
+              child: new Text("去插件首页"),
+              color: Colors.blue,
+              textColor: Colors.white,
+              onPressed: (){
+                Navigator.pushNamed(context, RoutesCommon.mhome);
               },
             ),
           ],
