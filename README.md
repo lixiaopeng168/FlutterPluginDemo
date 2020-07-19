@@ -3,7 +3,7 @@
 
 ### 效果
 ![图片](https://github.com/lixiaopeng168/FlutterPluginDemo/blob/master/screent/1595062363598683.gif)
-
+![图片](https://p1.ssl.qhimgs1.com/bdr/300_115_/t027fe0a9a120a99391.jpg)
 ### 运行
 - 打开flutter_plugins_dev即可运行整个demo。
 - flutter_plugin_base是共用的模块。在细分可以有model，common,util等。这里只是demo都卸载的base里
